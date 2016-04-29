@@ -14,22 +14,17 @@ Make sure you execute following commands to be able to access config files as a 
 	cd rpi-backlight
 	make
 	sudo make install
-	
-        sudo su -c 'echo SUBSYSTEM==\"backlight\", RUN+=\"/bin/chmod 0666 /sys/$
-	sudo reboot
-
 
 ## Usage
 	
 	rpi-backlight [option]
 	
-		up:	 increases brightness by 15/255
-    		down:	decreases brightness by 15/255
-    		max:	sets brightness to 255
+		up:	increases brightness by 15/255
+		down:	decreases brightness by 15/255
+		max:	sets brightness to 255
 		min:	sets brightness to 0
 		on:	turns the screen on
 		off:	turns the screen off
-
 
 
 
