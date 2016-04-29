@@ -19,11 +19,11 @@ Make sure you execute following commands to be able to access config files as a 
 	
 	rpi-backlight [option]
 	
-		up:	increases brightness by 15/255
+		up:		increases brightness by 15/255
 		down:	decreases brightness by 15/255
 		max:	sets brightness to 255
 		min:	sets brightness to 0
-		on:	turns the screen on
+		on:		turns the screen on
 		off:	turns the screen off
 
 
