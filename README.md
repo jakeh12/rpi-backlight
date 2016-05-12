@@ -2,6 +2,11 @@
 
 Simple program for controlling backlight of the official Raspberry Pi Touchscreen.
 
+COMPLETE FUNCTIONALITY ON DISPLAY BOARD V2.0 ONLY!
+DISPLAY BOARD V1.1 ONLY "on" AND "off" WORKING (need to verify)
+DISPLAY BOARD V1.0 NOT CAPABLE OF ANY BRIGHTNESS CONTROL
+
+
 Make sure you execute following commands to be able to access config files as a regular user:
 
 	sudo su -c 'echo SUBSYSTEM==\"backlight\", RUN+=\"/bin/chmod 0666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power\" > /etc/udev/rules.d/99-backlight.rules'
@@ -19,10 +24,10 @@ Make sure you execute following commands to be able to access config files as a 
 	
 	rpi-backlight [option]
 	
-		up:		increases brightness by 15/255
-		down:	decreases brightness by 15/255
-		max:	sets brightness to 255
-		min:	sets brightness to 0
+		up:		increases brightness by 10%
+		down:	decreases brightness by 10%
+		max:	sets brightness to 100%
+		min:	sets brightness to 0%
 		on:		turns the screen on
 		off:	turns the screen off
 
