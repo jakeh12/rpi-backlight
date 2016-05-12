@@ -28,7 +28,7 @@ int usage(char *argv[]) {
            "options:\n"
            "\tup:\t increases brightness by 10%%\n"
            "\tdown:\t decreases brightness by 10%%\n"
-           "\tmax:\t sets brightness to 100%\n"
+           "\tmax:\t sets brightness to 100%%\n"
            "\tmin:\t sets brightness to 0%%\n"
            "\ton:\t turns the screen on\n"
            "\toff:\t turns the screen off\n\n"
