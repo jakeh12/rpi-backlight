@@ -19,17 +19,17 @@
 #define POWER_OFF 1
 
 #define BRIGHTNESS_FILE "/sys/class/backlight/rpi_backlight/brightness"
-#define BRIGHTNESS_MAX 255
-#define BRIGHTNESS_MIN 0
-#define BRIGHTNESS_STEP 17
+#define BRIGHTNESS_MAX 180
+#define BRIGHTNESS_MIN 30
+#define BRIGHTNESS_STEP 15
 
 int usage(char *argv[]) {
     printf("usage: %s up | down | max | min | on | off\n\n"
            "options:\n"
-           "\tup:\t increases brightness by 15/255\n"
-           "\tdown:\t decreases brightness by 15/255\n"
-           "\tmax:\t sets brightness to 255\n"
-           "\tmin:\t sets brightness to 0\n"
+           "\tup:\t increases brightness by 10%%\n"
+           "\tdown:\t decreases brightness by 10%%\n"
+           "\tmax:\t sets brightness to 100%\n"
+           "\tmin:\t sets brightness to 0%%\n"
            "\ton:\t turns the screen on\n"
            "\toff:\t turns the screen off\n\n"
            "2015, Jakub Hladik, www.github.com/jakeh12\n\n"
