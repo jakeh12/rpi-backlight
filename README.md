@@ -3,7 +3,9 @@
 Simple program for controlling backlight of the official Raspberry Pi Touchscreen.
 
 COMPLETE FUNCTIONALITY ON DISPLAY BOARD V2.0 ONLY!
+
 DISPLAY BOARD V1.1 ONLY "on" AND "off" WORKING (need to verify)
+
 DISPLAY BOARD V1.0 NOT CAPABLE OF ANY BRIGHTNESS CONTROL
 
 
