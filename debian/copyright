@@ -1,0 +1,35 @@
+This package was debianized by Steve Arnold (nerdboy)
+ on Mon, 10 Apr 2017.
+
+It was downloaded from https://github.com/jakeh12/rpi-backlight
+
+Upstream Author:
+
+    Jakub Hladik (jakeh12)
+
+Files: *
+Copyright:
+    2014-2016, Jakub Hladik
+License: GPL
+
+Files: configure.ac, Makefile.am, debian/*
+Copyright:
+    2017, Steve Arnold
+License: GPL
+
+License: GPL
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, see .
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-3'.
