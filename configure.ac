@@ -40,15 +40,6 @@ dnl Checks for libraries.
 dnl pkg-config
 PKG_PROG_PKG_CONFIG([0.25])
 
-#PKG_CHECK_MODULES([UDEV],[libudev],
-#  [ac_udev_rulesdir=`$PKG_CONFIG --variable=udevdir udev`/rules.d],
-#  [ac_udev_rulesdir=;])
-
-#if test "x$ac_udev_rulesdir" = x ; then
-#  AC_MSG_ERROR([couldn't find udev or rules directory])
-#fi
-#AC_SUBST(UDEV_RULESDIR, $ac_udev_rulesdir)
-
 PKG_CHECK_VAR([UDEV_RULESDIR], [udev], [udevdir])
 AC_MSG_CHECKING([udev rules path])
 AS_IF([test "x$UDEV_RULESDIR" = "x"], [
