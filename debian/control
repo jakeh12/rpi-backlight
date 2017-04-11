@@ -3,7 +3,7 @@ Maintainer: Steve Arnold <nerdboy@gentoo.org>
 Section: utils
 Priority: optional
 Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.16.1)
 
 Package: rpi-backlight
 Architecture: any

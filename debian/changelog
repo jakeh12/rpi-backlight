@@ -1,7 +1,6 @@
-rpi-backlight (0.0.1-1) jessie; urgency=medium
+rpi-backlight (0.0.1-1-raspbian+1) stable; urgency=medium
 
   * Initial autotools package release.
   * https://github.com/jakeh12/rpi-backlight
 
- -- Steve Arnold (nerdboy) <nerdboy@gentoo.org>  Tue Apr 11 10:48:42 PDT 2017
-
+ -- Steve Arnold <nerdboy@gentoo.org>  Tue, 11 Apr 2017 10:59:09 -0700
