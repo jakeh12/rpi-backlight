@@ -33,4 +33,4 @@ Make sure you execute following commands to be able to access config files as a 
 
 
 
-Thanks for using this program. Feel free to modify, improve, and share. Linux spirit.
+Thanks for using this program. Feel free to modify, improve, and share. Open source spirit.
