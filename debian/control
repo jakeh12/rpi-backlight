@@ -1,0 +1,12 @@
+Source: rpi-backlight
+Maintainer: Steve Arnold <nerdboy@gentoo.org>
+Section: utils
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.16.1)
+
+Package: rpi-backlight
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Backlight control for the official Raspberry Pi Touchscreen
+ Provides a backlight contoller for V2.0 and V1.1 display boards only.
